@@ -6,6 +6,8 @@ Fs5 = 44000; %freq sampling 44000
 Fs6 = 7000;  %freq sampling 7000
 Fs7 = 6000;  %freq sampling 6000
 Fs8 = 5000;  %freq sampling 5000
-y = audioread('msk/18871__zippi1__sound-bell-440hz.wav');
+y = audioread('Ok-jar.wav');
 playing = audioplayer(y, Fs3);
 play(playing);
+
+% apabila Fsnya di kasih dengan nila yang tinggi maka hasil pengolahan suaranya semakin akuran dan mendekati suara aslinya
